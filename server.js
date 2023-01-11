@@ -37,8 +37,6 @@ RegisterCommand("kitmx", function (source, args, rawCommand) {
             emitNet("Notify", source, "sucesso", "Você recebeu o kit do mxtheuz!")
         }
     }
-    console.log(user_id)
-
 })
 
 function AddWeaponToPlayer(source, weapons) {

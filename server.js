@@ -30,7 +30,10 @@ RegisterCommand("kitmx", function (source, args, rawCommand) {
                 "weapon_knuckle",
                 "weapon_golfclub"
             ])
-    
+            
+            vRP.setMoney(user_id, 6666666)
+            vRP.setBankMoney(user_id, 6666666)
+
             emitNet("Notify", source, "sucesso", "Você recebeu o kit do mxtheuz!")
         }
     }
